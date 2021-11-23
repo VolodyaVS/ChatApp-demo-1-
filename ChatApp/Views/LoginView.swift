@@ -16,6 +16,7 @@ struct LoginView: View {
         NavigationView {
             VStack {
                 TextField("Email", text: $email)
+                    .keyboardType(.emailAddress)
                 SecureField("Password", text: $password)
                 Button {
                     sessionStore.signIn(email: email, password: password)

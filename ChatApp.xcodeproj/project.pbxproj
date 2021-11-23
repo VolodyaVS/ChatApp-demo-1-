@@ -18,6 +18,8 @@
 		FFA54BE0274CC68A00EC5510 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BDF274CC68A00EC5510 /* User.swift */; };
 		FFA54BE5274CCD5900EC5510 /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BE4274CCD5900EC5510 /* ChatList.swift */; };
 		FFA54BE7274CCDA300EC5510 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BE6274CCDA300EC5510 /* ContentView.swift */; };
+		FFA54BE9274D3F7400EC5510 /* ChatroomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BE8274D3F7300EC5510 /* ChatroomViewModel.swift */; };
+		FFA54BEC274D3FC500EC5510 /* Chatroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BEB274D3FC500EC5510 /* Chatroom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		FFA54BDF274CC68A00EC5510 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FFA54BE4274CCD5900EC5510 /* ChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
 		FFA54BE6274CCDA300EC5510 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFA54BE8274D3F7300EC5510 /* ChatroomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomViewModel.swift; sourceTree = "<group>"; };
+		FFA54BEB274D3FC500EC5510 /* Chatroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatroom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				FFA54BC8274BFA9700EC5510 /* ChatAppApp.swift */,
 				FFA54BE1274CC68F00EC5510 /* Models */,
 				FFA54BE2274CC69A00EC5510 /* Views */,
+				FFA54BEA274D3F7900EC5510 /* ViewModels */,
 				FFA54BE3274CCD3400EC5510 /* Services */,
 				FFA54BCC274BFA9900EC5510 /* Assets.xcassets */,
 				FFA54BD6274BFBCA00EC5510 /* GoogleService-Info.plist */,
@@ -88,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				FFA54BDF274CC68A00EC5510 /* User.swift */,
+				FFA54BEB274D3FC500EC5510 /* Chatroom.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,6 +114,14 @@
 				FFA54BDD274CC61900EC5510 /* SessionStore.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		FFA54BEA274D3F7900EC5510 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FFA54BE8274D3F7300EC5510 /* ChatroomViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,11 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA54BE9274D3F7400EC5510 /* ChatroomViewModel.swift in Sources */,
 				FFA54BE5274CCD5900EC5510 /* ChatList.swift in Sources */,
 				FFA54BE0274CC68A00EC5510 /* User.swift in Sources */,
 				FFA54BE7274CCDA300EC5510 /* ContentView.swift in Sources */,
 				FFA54BCB274BFA9700EC5510 /* LoginView.swift in Sources */,
 				FFA54BC9274BFA9700EC5510 /* ChatAppApp.swift in Sources */,
+				FFA54BEC274D3FC500EC5510 /* Chatroom.swift in Sources */,
 				FFA54BDE274CC61900EC5510 /* SessionStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
