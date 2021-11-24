@@ -20,6 +20,9 @@
 		FFA54BE7274CCDA300EC5510 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BE6274CCDA300EC5510 /* ContentView.swift */; };
 		FFA54BE9274D3F7400EC5510 /* ChatroomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BE8274D3F7300EC5510 /* ChatroomViewModel.swift */; };
 		FFA54BEC274D3FC500EC5510 /* Chatroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BEB274D3FC500EC5510 /* Chatroom.swift */; };
+		FFA54BEE274E255C00EC5510 /* JoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BED274E255C00EC5510 /* JoinView.swift */; };
+		FFA54BF0274E340200EC5510 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BEF274E340200EC5510 /* Message.swift */; };
+		FFA54BF2274E344500EC5510 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BF1274E344500EC5510 /* MessageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		FFA54BE6274CCDA300EC5510 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FFA54BE8274D3F7300EC5510 /* ChatroomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomViewModel.swift; sourceTree = "<group>"; };
 		FFA54BEB274D3FC500EC5510 /* Chatroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatroom.swift; sourceTree = "<group>"; };
+		FFA54BED274E255C00EC5510 /* JoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinView.swift; sourceTree = "<group>"; };
+		FFA54BEF274E340200EC5510 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FFA54BF1274E344500EC5510 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 			children = (
 				FFA54BDF274CC68A00EC5510 /* User.swift */,
 				FFA54BEB274D3FC500EC5510 /* Chatroom.swift */,
+				FFA54BEF274E340200EC5510 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +111,7 @@
 				FFA54BE6274CCDA300EC5510 /* ContentView.swift */,
 				FFA54BCA274BFA9700EC5510 /* LoginView.swift */,
 				FFA54BE4274CCD5900EC5510 /* ChatList.swift */,
+				FFA54BED274E255C00EC5510 /* JoinView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				FFA54BE8274D3F7300EC5510 /* ChatroomViewModel.swift */,
+				FFA54BF1274E344500EC5510 /* MessageViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,12 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA54BF2274E344500EC5510 /* MessageViewModel.swift in Sources */,
 				FFA54BE9274D3F7400EC5510 /* ChatroomViewModel.swift in Sources */,
+				FFA54BEE274E255C00EC5510 /* JoinView.swift in Sources */,
 				FFA54BE5274CCD5900EC5510 /* ChatList.swift in Sources */,
 				FFA54BE0274CC68A00EC5510 /* User.swift in Sources */,
 				FFA54BE7274CCDA300EC5510 /* ContentView.swift in Sources */,
 				FFA54BCB274BFA9700EC5510 /* LoginView.swift in Sources */,
 				FFA54BC9274BFA9700EC5510 /* ChatAppApp.swift in Sources */,
+				FFA54BF0274E340200EC5510 /* Message.swift in Sources */,
 				FFA54BEC274D3FC500EC5510 /* Chatroom.swift in Sources */,
 				FFA54BDE274CC61900EC5510 /* SessionStore.swift in Sources */,
 			);
