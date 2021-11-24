@@ -23,6 +23,7 @@
 		FFA54BEE274E255C00EC5510 /* JoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BED274E255C00EC5510 /* JoinView.swift */; };
 		FFA54BF0274E340200EC5510 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BEF274E340200EC5510 /* Message.swift */; };
 		FFA54BF2274E344500EC5510 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BF1274E344500EC5510 /* MessageViewModel.swift */; };
+		FFA54BF4274E374700EC5510 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA54BF3274E374700EC5510 /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		FFA54BED274E255C00EC5510 /* JoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinView.swift; sourceTree = "<group>"; };
 		FFA54BEF274E340200EC5510 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FFA54BF1274E344500EC5510 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		FFA54BF3274E374700EC5510 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				FFA54BCA274BFA9700EC5510 /* LoginView.swift */,
 				FFA54BE4274CCD5900EC5510 /* ChatList.swift */,
 				FFA54BED274E255C00EC5510 /* JoinView.swift */,
+				FFA54BF3274E374700EC5510 /* MessageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA54BF4274E374700EC5510 /* MessageView.swift in Sources */,
 				FFA54BF2274E344500EC5510 /* MessageViewModel.swift in Sources */,
 				FFA54BE9274D3F7400EC5510 /* ChatroomViewModel.swift in Sources */,
 				FFA54BEE274E255C00EC5510 /* JoinView.swift in Sources */,

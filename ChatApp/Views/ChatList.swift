@@ -18,9 +18,11 @@ struct ChatList: View {
     var body: some View {
         NavigationView {
             List(viewModel.chatromms) { chatroom in
-                HStack {
-                    Text(chatroom.title)
-                    Spacer()
+                NavigationLink(destination: MessageView(chatroom: chatroom)) {
+                    HStack {
+                        Text(chatroom.title)
+                        Spacer()
+                    }
                 }
                 .navigationTitle("Chatrooms")
                 .toolbar {
